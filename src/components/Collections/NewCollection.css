@@ -1,0 +1,71 @@
+.Collection-conatiner{
+    display:flex;
+    flex-direction: column;
+    font-family: 'Times New Roman', Times, serif; 
+    max-height:100%;
+    height: 100%;
+    gap:50px;
+    width: 100%;
+     
+    border-bottom: 2px solid gray;
+
+}
+
+.CollectionHeading h1{
+    font-size: 50px;
+    text-align: center;
+    
+}
+
+.CollectionHeading hr{
+    width:30%;
+    height: 4px;
+    border-radius: 5px;
+    background-color: rgb(117, 54, 199);
+    margin-bottom: 10px;
+    margin-left: 35%;
+    margin-top: -10px;
+}
+
+
+.Collection-items{
+     display: grid;
+     /* fractional unit or auto */
+     grid-template-columns:1fr 1fr 1fr 1fr ; 
+    margin-left: 50px;
+    margin-bottom: 20px;
+}
+
+.Collectionimg{
+    width:300px;
+    height:250px;
+    border: 2px solid gray;
+    box-shadow: rgba(13, 13, 167, 0.25) 0px 50px 100px -20px, rgba(138, 9, 9, 0.3) 0px 30px 60px -30px, rgba(10, 37, 64, 0.35) 0px -2px 6px 0px inset;
+    /* transition: width height 1000ms ease-in-out; */
+    border-radius: 10px;
+      
+     
+}
+
+.img:hover{
+    width:302px;
+    height: 252px;
+}
+
+.Collections-details p{
+    gap:30px;
+    text-align:center;
+    font-weight:bolder;
+    font-size: medium;
+}
+
+.Price-offer{
+    display: flex;
+    gap:5px;
+    justify-content: center;
+}
+
+.oldprice{
+    text-decoration: line-through;
+    background-color: aqua;
+  }

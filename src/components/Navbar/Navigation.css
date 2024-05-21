@@ -1,0 +1,98 @@
+.Navigation_Bar{
+    display :flex;
+    justify-content:space-around;
+    /* border-bottom: 2px solid rgb(132, 129, 129); */
+    box-shadow:0 8px 8px -4px lightblue;
+    height: 60px;
+    position:sticky;
+    top: 0;
+    z-index: 1;
+    background-color: white;
+}
+.image{
+    width:70px;
+    height: 70px;
+    margin-left: -50px;
+}
+
+.Nav-menu{
+    display:flex;
+    margin-left: -200px;
+    gap:20px;
+
+}
+
+.Nav-menu li{
+    font-size: 15px;
+    color:rgb(19, 18, 18)
+}
+
+ 
+
+
+
+.Nav-input-input{
+    position: relative;
+    margin-top: 10px;
+     
+    
+}
+
+
+
+.Nav-input-input input{
+    width:400px;
+    border: none;
+    background-color: rgb(245, 240, 240);
+    margin-top: 8px;
+    outline: none;
+}
+.Nav-search-icon{
+    position: absolute;
+    left:-20px;
+    background-color: rgb(245, 240, 240);
+    margin-top: 8px;
+}
+
+.Nav-search-icon button{
+    border:none;
+    background: transparent;
+
+}
+
+.Nav-search-icon button:active::after{
+    border: none;
+
+}
+
+.Login_cart{
+    display: flex;
+    gap:20px;
+    margin-right: 10px;
+    margin-top: 15px;
+}
+
+.nav-cart-count{
+    position: absolute;
+    right:120px;
+    font-size: 12px;
+    top:10px;
+    color:rgb(205, 15, 15);
+    font-weight: bold;
+    
+}
+ 
+ 
+@media (max-width: 800px) {
+    .Navigation_Bar {
+      flex-direction: column;
+    }
+  }
+ 
+ 
+
+
+
+
+
+ 

@@ -1,0 +1,93 @@
+*{
+    margin: 0;
+}
+
+.Hero-container{
+    
+    height: 50vh;
+    display: flex;
+    background-image: linear-gradient(62deg, #8EC5FC 0%, #E0C3FC 100%);
+    font-family: 'Times New Roman', Times, serif;
+    border-top: 2px solid;
+    border-color: linear-gradient(62deg, #9dfc8e 0%, #861de8 100%);
+     
+}
+.Hero-left-side{
+    flex:1;
+    display:flex ;
+    flex-direction: column;
+     padding-left: 180px; 
+     gap:20px;
+     justify-content: center;
+     line-height: 1.1;
+}
+.hellohand{
+    width:50px;
+    height: 50px;
+    margin-top: -20px;
+    margin-left: 10px;
+    animation-name: movings;
+    animation-duration: 1s;
+    animation-iteration-count: infinite;
+     
+}
+
+
+ @keyframes movings {
+     0%{
+        transform: rotate(0deg);
+     }
+     10%{
+        transform: rotate(14deg);
+     }
+     30%{
+        transform: rotate(8deg);
+     }
+     50%{
+        transform: rotate(14deg);
+     }
+     100%{
+        transform: rotate(0deg);
+     }
+
+ }
+     
+
+.Hero-right-side{
+    flex:1; 
+    padding-right: 250px;
+}
+
+.Hero-right-side .image-image{
+    width: 600px;  
+    height: 400px;
+     
+     
+}
+.btn-btn .button{
+    padding:8px;
+     margin-left: 20px;
+     border-radius: 20px;
+     background-color: rgb(217, 70, 7);
+     color: white;
+     text-align: center;
+     border: 2px solid;
+     cursor: pointer;
+     position: relative;
+}
+.btn-btn .button:hover{
+    background-color: gray;
+    border-color: black;
+}
+
+.arrowicon{
+    transition: width 500ms ease-in-out;
+}
+
+.arrowicon:hover{
+    width:30px
+}
+
+ 
+
+ 
